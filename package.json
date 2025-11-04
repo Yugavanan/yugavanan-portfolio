@@ -1,6 +1,6 @@
 {
   "name": "portfolio-site",
-  "homepage": "https://Yugavanan.github.io/Yuga-Portfolio",
+  "homepage": "https://yugavanan.github.io/yugavanan-portfolio/",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "start": "vite preview --host 0.0.0.0",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "autoprefixer": "^10.4.21",
