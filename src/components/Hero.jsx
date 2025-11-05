@@ -145,7 +145,7 @@ const Hero = () => {
               className="flex flex-wrap gap-4 pt-2"
             >
               <motion.a
-                href="/resume.pdf"
+                href={`${import.meta.env.BASE_URL}resume.pdf`}
                 className="btn btn-outline flex items-center gap-2 px-6 py-3 rounded-md"
                 target="_blank"
                 rel="noopener noreferrer"
