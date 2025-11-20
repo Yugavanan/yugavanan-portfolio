@@ -57,18 +57,20 @@ const Papers = () => {
       ],
       pdfLink: "https://www.irjmets.com/paperdetail.php?paperId=ef83dbe4962d0e14e140b650b2064e01",
     },
+
     {
-      id: 5,
-      title: "Static Website Hosting Using AWS",
-      description: `This project demonstrates static website hosting on Amazon Web Services (AWS) using Amazon S3, CloudFront, Route 53, and IAM. The solution enables secure, scalable, and globally accessible web hosting with low latency and minimal maintenance, serving as a practical foundation for portfolios, blogs, and business websites.`,
-      image: "/paper_photos/certificates_183750233857(STATIC WEBSITE HOSTING)_page-0001.jpg",
-      highlights: [
-      "AWS S3 Hosting: Stores and delivers static files (HTML, CSS, JS, images).",
-      "Optimized Performance: Integrated CloudFront CDN for faster global content delivery.",
-      "Scalability & Security: Custom domain via Route 53 with IAM-based access control."      
-    ],
-      pdfLink: "https://ijsci.com/index.php/home/article/view/134",
-    },
+  id: 5,
+  title: "Static Website Hosting Using AWS",
+  description: `This project explains how to host static websites on Amazon Web Services (AWS) using Amazon S3, CloudFront, Route 53, and IAM. The solution enables secure, scalable, and globally accessible web hosting with low latency and minimal maintenance, serving as a practical foundation for portfolios, blogs, and business websites.`,
+  image: "/paper_photos/certificates_183750233857(STATIC WEBSITE HOSTING)_page-0001.jpg",
+  highlights: [
+    "AWS S3 Hosting: Stores and delivers static files (HTML, CSS, JS, images).",
+    "Optimized Performance: Integrated CloudFront CDN for faster global content delivery.",
+    "Scalability & Security: Custom domain via Route 53 with IAM-based access control."
+  ],
+  pdfLink: "https://ijsci.com/index.php/home/article/view/134",
+},
+
 
   ];
 
