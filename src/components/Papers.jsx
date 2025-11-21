@@ -34,7 +34,23 @@ const Papers = () => {
        pdfLink: "https://ijrpr.com/uploads/V5ISSUE5/IJRPR28882.pdf",
     },
     {
+<<<<<<< HEAD
       id: 3,
+=======
+     id: 3,
+     title: "Deal Sphere",
+     description: `DealSphere is a full-stack digital marketplace platform designed for buying, selling, and redeeming digital coupons and vouchers. It leverages the MERN stack—MongoDB, Express.js, React.js, and Node.js—to deliver a secure, scalable, and seamless trading experience.`,
+     image: "/paper_photos/certificates_183750233857(STATIC WEBSITE HOSTING)_page-0001.jpg",
+     highlights: [
+     "DealSphere is a secure and scalable digital marketplace designed for buying, selling, and redeeming coupons with transparency and efficiency.",
+     "The platform enforces role-based authentication, ensuring clear boundaries between users, sellers, and administrators.",
+     " Its modular architecture and clean API design make it adaptable for future extensions like payment gateways and notifications."      
+   ],
+     pdfLink: "https://ijsci.com/index.php/home/article/view/899/IJSCI02112025055",
+   },
+    {
+      id: 4,
+>>>>>>> 3ac25833b7003175936be76c0bd3f51fc2f7b297
       title: "Artisium",
       description: `Artisium is an interactive online platform designed to enhance the way users experience visual art. It offers virtual access to curated collections, detailed artist profiles, and high-resolution artwork exploration. By integrating accessibility and engagement features, the platform bridges the gap between artists, collectors, and enthusiasts, while also enabling direct art sales.`,
       image: "/paper_photos/IRJMETS61200013299-4(ARTISIUM)_page-0001.jpg",
@@ -45,6 +61,7 @@ const Papers = () => {
       ],
       pdfLink: "https://www.irjmets.com/paperdetail.php?paperId=ef83dbe4962d0e14e140b650b2064e01",
     },
+<<<<<<< HEAD
     {
       id: 4,
       title: "IoT For Smrt Hydrophonics",
@@ -57,6 +74,22 @@ const Papers = () => {
     ],
       pdfLink: "https://ijsci.com/index.php/home/article/view/134",
     },
+=======
+
+    {
+  id: 5,
+  title: "Static Website Hosting Using AWS",
+  description: `This project explains how to host static websites on Amazon Web Services (AWS) using Amazon S3, CloudFront, Route 53, and IAM. The solution enables secure, scalable, and globally accessible web hosting with low latency and minimal maintenance, serving as a practical foundation for portfolios, blogs, and business websites.`,
+  image: "/paper_photos/certificates_183750233857(STATIC WEBSITE HOSTING)_page-0001.jpg",
+  highlights: [
+    "AWS S3 Hosting: Stores and delivers static files (HTML, CSS, JS, images).",
+    "Optimized Performance: Integrated CloudFront CDN for faster global content delivery.",
+    "Scalability & Security: Custom domain via Route 53 with IAM-based access control."
+  ],
+  pdfLink: "https://ijsci.com/index.php/home/article/view/134",
+},
+
+>>>>>>> 3ac25833b7003175936be76c0bd3f51fc2f7b297
 
   ];
 

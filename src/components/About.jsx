@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 import React from 'react';
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { FiAward, FiCode, FiHeart } from 'react-icons/fi';
+=======
+import React, { useRef } from "react";
+import { motion, useInView } from "framer-motion";
+import { FiAward, FiCode, FiHeart } from "react-icons/fi";
+>>>>>>> 3ac25833b7003175936be76c0bd3f51fc2f7b297
 
 const About = () => {
   const ref = useRef(null);
@@ -11,23 +17,32 @@ const About = () => {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
+<<<<<<< HEAD
       transition: {
         staggerChildren: 0.2,
       },
+=======
+      transition: { staggerChildren: 0.2 },
+>>>>>>> 3ac25833b7003175936be76c0bd3f51fc2f7b297
     },
   };
 
   const itemVariants = {
     hidden: { y: 20, opacity: 0 },
+<<<<<<< HEAD
     visible: {
       y: 0,
       opacity: 1,
       transition: { duration: 0.5 },
     },
+=======
+    visible: { y: 0, opacity: 1, transition: { duration: 0.5 } },
+>>>>>>> 3ac25833b7003175936be76c0bd3f51fc2f7b297
   };
 
   const cardVariants = {
     hidden: { y: 30, opacity: 0 },
+<<<<<<< HEAD
     visible: { 
       y: 0, 
       opacity: 1,
@@ -36,6 +51,11 @@ const About = () => {
   };
 
   // Removed Experience from highlights as requested
+=======
+    visible: { y: 0, opacity: 1, transition: { duration: 0.6 } },
+  };
+
+>>>>>>> 3ac25833b7003175936be76c0bd3f51fc2f7b297
   const highlights = [
     {
       icon: <FiCode />,
@@ -44,7 +64,11 @@ const About = () => {
         "Proficient in multiple programming languages, adapting to the best tool for each task.",
     },
     {
+<<<<<<< HEAD
       icon: <FiCode />,
+=======
+      icon: <FiHeart />,
+>>>>>>> 3ac25833b7003175936be76c0bd3f51fc2f7b297
       title: "Creative Coding",
       description:
         "Transforming ideas into functional code with creativity and precision.",
@@ -56,16 +80,28 @@ const About = () => {
       id="about"
       className="py-20 bg-dark-lighter relative overflow-hidden"
     >
+<<<<<<< HEAD
       {/* Background Design Elements */}
+=======
+      {/* Background Design */}
+>>>>>>> 3ac25833b7003175936be76c0bd3f51fc2f7b297
       <div className="absolute right-0 top-20 w-64 h-64 bg-primary opacity-5 blur-3xl -z-10" />
       <div className="absolute left-10 bottom-10 w-32 h-32 bg-accent opacity-5 blur-2xl -z-10" />
       <div className="absolute left-1/4 top-1/3 w-16 h-16 bg-dark-lightest rounded-full -z-10" />
 
+<<<<<<< HEAD
       {/* Grid pattern overlay */}
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMyMTIxMjEiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDM0djZoNnYtNmgtNnptNiA2djZoNnYtNmgtNnptLTEyIDBoNnY2aC02di02em0xMiAwaDZ2NmgtNnYtNnptLTI0IDBoNnY2aC02di02em0wLTEyaDZ2NmgtNnYtNnptMTIgMGg2djZoLTZ2LTZ6bTEyIDBoNnY2aC02di02em0tMjQtMTJoNnY2aC02di02em0xMiAwaDZ2NmgtNnYtNnptMTIgMGg2djZoLTZ2LTZ6Ii8+PC9nPjwvZz48L3N2Zz4=')] opacity-5 -z-10"></div>
 
       <div className="container mx-auto px-4 md:px-6">
         {/* Section Title */}
+=======
+      {/* Grid Pattern */}
+      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMyMTIxMjEiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDM0djZoNnYtNmgtNnptNiA2djZoNnYtNmgtNnptLTEyIDBoNnY2aC02di02em0xMiAwaDZ2NmgtNnYtNnptLTI0IDBoNnY2aC02di02em0wLTEyaDZ2NmgtNnYtNnptMTIgMGg2djZoLTZ2LTZ6bTEyIDBoNnY2aC02di02em0tMjQtMTJoNnY2aC02di02em0xMiAwaDZ2NmgtNnYtNnptMTIgMGg2djZoLTZ2LTZ6Ii8+PC9nPjwvZz48L3N2Zz4=')] opacity-5 -z-10"></div>
+
+      <div className="container mx-auto px-4 md:px-6">
+        {/* Title */}
+>>>>>>> 3ac25833b7003175936be76c0bd3f51fc2f7b297
         <div className="section-title">
           <motion.h2
             className="text-3xl md:text-4xl font-bold mb-4"
@@ -75,6 +111,10 @@ const About = () => {
           >
             About <span className="text-primary">Me</span>
           </motion.h2>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3ac25833b7003175936be76c0bd3f51fc2f7b297
           <motion.div
             className="underline"
             initial={{ width: 0 }}
@@ -84,7 +124,11 @@ const About = () => {
         </div>
 
         <div ref={ref} className="grid md:grid-cols-2 gap-12 items-center">
+<<<<<<< HEAD
           {/* Image Column */}
+=======
+          {/* Image Section */}
+>>>>>>> 3ac25833b7003175936be76c0bd3f51fc2f7b297
           <motion.div
             className="flex justify-center md:justify-end order-2 md:order-1"
             initial={{ opacity: 0, x: -50 }}
@@ -92,7 +136,10 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <div className="relative">
+<<<<<<< HEAD
               {/* Glowing effect around image */}
+=======
+>>>>>>> 3ac25833b7003175936be76c0bd3f51fc2f7b297
               <motion.div
                 className="absolute -inset-4 bg-gradient-to-tr from-primary to-accent rounded-xl opacity-20 blur-xl"
                 animate={{
@@ -102,6 +149,7 @@ const About = () => {
                 transition={{ duration: 4, repeat: Infinity }}
               />
 
+<<<<<<< HEAD
               {/* Image frame with gradient border */}
               <div className="w-full max-w-md relative z-10">
                 <img
@@ -112,11 +160,25 @@ const About = () => {
               </div>
 
               {/* Background pattern */}
+=======
+              <div className="w-full max-w-md relative z-10">
+                <img
+                  src="/photos/profile.jpg"
+                  alt="Professional portrait"
+                  className="rounded-xl shadow-dark-md border-2 border-dark-lightest"
+                />
+              </div>
+
+>>>>>>> 3ac25833b7003175936be76c0bd3f51fc2f7b297
               <div className="absolute -bottom-6 -right-6 w-64 h-64 bg-dark-lighter rounded-lg shadow-dark-md -z-0 hidden md:block"></div>
             </div>
           </motion.div>
 
+<<<<<<< HEAD
           {/* Content Column */}
+=======
+          {/* Text Section */}
+>>>>>>> 3ac25833b7003175936be76c0bd3f51fc2f7b297
           <motion.div
             className="order-1 md:order-2"
             variants={containerVariants}
@@ -135,20 +197,33 @@ const About = () => {
               className="text-2xl md:text-3xl font-bold mb-6 text-darkText-primary"
             >
               Passionate{" "}
+<<<<<<< HEAD
               <span className="gradient-text">Data Analytics & Web Designer</span>
+=======
+              <span className="gradient-text">
+                Data Analytics & Web Designer
+              </span>
+>>>>>>> 3ac25833b7003175936be76c0bd3f51fc2f7b297
             </motion.h4>
 
             <motion.p
               variants={itemVariants}
               className="text-darkText-secondary mb-6"
             >
+<<<<<<< HEAD
               Hey there! I’m a curious and creative developer who loves bringing ideas to life — whether it's through clean code, smart design, or just experimenting with something new. I enjoy building projects that not only work well but also look and feel great to use.
+=======
+              Hey there! I’m a curious and creative developer who loves
+              bringing ideas to life — whether it's through clean code, smart
+              design, or just experimenting with something new.
+>>>>>>> 3ac25833b7003175936be76c0bd3f51fc2f7b297
             </motion.p>
 
             <motion.p
               variants={itemVariants}
               className="text-darkText-secondary mb-8"
             >
+<<<<<<< HEAD
 
 My journey into tech started with a simple love for computers and figuring out how things work. That curiosity led me to explore coding — especially with Python — and over time, I’ve built up my skills by learning, building, and failing (then fixing it again!). I care deeply about writing clean, understandable code and designing user experiences that make a difference in the real world.
             </motion.p>
@@ -179,6 +254,12 @@ My journey into tech started with a simple love for computers and figuring out h
                 </motion.div>
               ))}
             </div> */}
+=======
+              My journey into tech started with exploring Python and gradually
+              diving into modern technologies. I love creating visually
+              appealing and functional digital experiences.
+            </motion.p>
+>>>>>>> 3ac25833b7003175936be76c0bd3f51fc2f7b297
           </motion.div>
         </div>
       </div>
@@ -187,4 +268,7 @@ My journey into tech started with a simple love for computers and figuring out h
 };
 
 export default About;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3ac25833b7003175936be76c0bd3f51fc2f7b297
