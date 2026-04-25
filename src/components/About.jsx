@@ -92,7 +92,7 @@ const About = () => {
 
               <div className="w-full max-w-md relative z-10">
                 <img
-                  src="/photos/profile.jpg"
+                  src="photos/profile.jpg"
                   alt="Professional portrait"
                   className="rounded-xl shadow-dark-md border-2 border-dark-lightest"
                 />

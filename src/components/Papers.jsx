@@ -13,7 +13,7 @@ const Papers = () => {
       id: 1,
       title: "Deepvisioclassifier: Multimodal Image Classification Technique",
       description: `This research focuses on image classification using deep learning techniques. An AlexNet-based Convolutional Neural Network (CNN) was applied on ImageNet datasets for experimental analysis. By training on cropped image sections, the system demonstrated the effectiveness of AlexNet in achieving reliable and accurate image classification results`,
-      image: "/paper_photos/1721554288679.jpeg",
+      image: "paper_photos/1721554288679.jpeg",
       highlights: [
         "Deep Learning Approach: Implemented AlexNet architecture with CNN.",
         "Dataset Used: Experiments conducted on ImageNet with cropped test images.",
@@ -25,7 +25,7 @@ const Papers = () => {
       id: 2,
       title: "DNA Sequencing Using Machine Learning Algorithm",
       description: `This work applies machine learning methods to DNA sequencing, improving accuracy and enabling faster identification of genetic variations. The study highlights how ML supports genomics, personalized medicine, and large-scale data analysis.`,
-      image: "/paper_photos/1721845548188.jpeg",
+      image: "paper_photos/1721845548188.jpeg",
       highlights: [
         "Machine Learning Integration: Applied ML methods to enhance DNA sequencing analysis.",
         "Improved Outcomes: Boosts sequencing accuracy and enables biomarker identification.",
@@ -38,7 +38,7 @@ const Papers = () => {
       id: 3,
       title: "Deal Sphere",
       description: `DealSphere is a full-stack digital marketplace platform designed for buying, selling, and redeeming digital coupons and vouchers. It leverages the MERN stack—MongoDB, Express.js, React.js, and Node.js—to deliver a secure, scalable, and seamless trading experience.`,
-      image: "/paper_photos/certificates_183750233857(STATIC WEBSITE HOSTING)_page-0001.jpg",
+      image: "paper_photos/certificates_183750233857(STATIC WEBSITE HOSTING)_page-0001.jpg",
       highlights: [
         "DealSphere is a secure and scalable digital marketplace designed for buying, selling, and redeeming coupons with transparency and efficiency.",
         "The platform enforces role-based authentication, ensuring clear boundaries between users, sellers, and administrators.",
@@ -51,7 +51,7 @@ const Papers = () => {
       id: 4,
       title: "Artisium",
       description: `Artisium is an interactive online platform designed to enhance the way users experience visual art. It offers virtual access to curated collections, detailed artist profiles, and high-resolution artwork exploration. By integrating accessibility and engagement features, the platform bridges the gap between artists, collectors, and enthusiasts, while also enabling direct art sales.`,
-      image: "/paper_photos/IRJMETS61200013299-4(ARTISIUM)_page-0001.jpg",
+      image: "paper_photos/IRJMETS61200013299-4(ARTISIUM)_page-0001.jpg",
       highlights: [
         "Immersive Experience: High-resolution zoom and interactive gallery-like environment.",
         "Artist-Centric: Provides detailed biographies and background of creators.",
@@ -64,7 +64,7 @@ const Papers = () => {
       id: 5,
       title: "Static Website Hosting Using AWS",
       description: `This project explains how to host static websites on Amazon Web Services (AWS) using Amazon S3, CloudFront, Route 53, and IAM. The solution enables secure, scalable, and globally accessible web hosting with low latency and minimal maintenance, serving as a practical foundation for portfolios, blogs, and business websites.`,
-      image: "/paper_photos/certificates_183750233857(STATIC WEBSITE HOSTING)_page-0001.jpg",
+      image: "paper_photos/certificates_183750233857(STATIC WEBSITE HOSTING)_page-0001.jpg",
       highlights: [
         "AWS S3 Hosting: Stores and delivers static files (HTML, CSS, JS, images).",
         "Optimized Performance: Integrated CloudFront CDN for faster global content delivery.",

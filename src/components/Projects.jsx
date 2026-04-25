@@ -16,7 +16,7 @@ const Projects = () => {
       title: "Portfolio Website",
       description:
         "A personal portfolio website showcasing my projects and skills.",
-      image: "/project_images/portfolio.png",
+      image: "project_images/portfolio.png",
       category: "Projects",
       tech: ["React", "Tailwind CSS", "Framer Motion", "Frontend"],
       githubLink: "https://github.com/Yugavanan/yugavanan-portfolio",
@@ -28,6 +28,7 @@ const Projects = () => {
         "Modern Simplistic Design",
         "Animated transition with Framer Motion",
         "Easily Customizable and Extensible",
+         <a href="https://yugavanan.github.io/yugavanan-portfolio/"><h6>Live -<u>Privew</u></h6></a>
       ],
     },
     {
@@ -35,7 +36,7 @@ const Projects = () => {
       title: "Student Task Manager",
       description:
         "A full-stack task management application to organize and track daily tasks efficiently.",
-      image: "/project_images/Student.png",
+      image: "project_images/Student.png",
       category: "Mini Projects",
       tech: ["React", "Node.js", "Express", "MongoDB", "Full Stack"],
       githubLink: "https://github.com/Yugavanan/student-task-manager",
@@ -43,10 +44,13 @@ const Projects = () => {
 
 Tasks can be marked as completed or pending, and users can filter tasks based on their status or sort them by priority and due date. MongoDB is used for persistent data storage, ensuring tasks are saved securely. The application features a responsive UI, providing a smooth experience across both desktop and mobile devices.`,
       highlights: [
-         "Full CRUD operations for task management",
-         "Filter and sort tasks by status, priority, and due date",
-         "Responsive UI for mobile and desktop",
-         "RESTful API integration with MongoDB",
+    "Successfully completed Deloitte's Technology Job Simulation program on Forage.",
+    "Gained hands-on experience through practical tasks in coding and software development.",
+    "Simulated real-world Deloitte technology workflows and problem-solving scenarios.",
+    "Developed a stronger understanding of industry-level development practices.",
+    "Demonstrated commitment to learning and applying technical skills in a professional context.",
+     <a href="https://student-task-manager-khaki.vercel.app/"><h6>Live -<u>Privew</u></h6></a>
+
       ],
     },
     

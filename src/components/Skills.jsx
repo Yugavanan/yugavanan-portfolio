@@ -9,6 +9,9 @@ import {
   FaFlask,
   FaRobot,
   FaChartBar,
+  FaJsSquare,
+  FaJsfiddle,
+  FaAngular,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
@@ -32,11 +35,60 @@ import {
   SiDragonframe,
   SiCounterstrike,
   SiBookstack,
+  SiExcalidraw,
+  SiTypescript,
+  SiDart,
+  SiNextdotjs,
+  SiBootstrap,
+  SiNodedotjs,
+  SiExpress,
+  SiDjango,
+  SiFlask,
+  SiSpringboot,
+  SiMysql,
+  SiPostgresql,
+  SiOracle,
+  SiDatabricks,
+  SiStackedit,
+  SiPandas,
+  SiMlb,
+  SiDeepgram,
+  SiNeutralinojs,
+  SiThesoundsresource,
+  SiPytorch,
+  SiReactiveresume,
+  SiApifox,
+  SiUikit,
+  SiAwslambda,
+  SiAmazonlumberyard,
+  SiGooglecloud,
+  SiDocker,
+  SiRefinedgithub,
+  SiOctopusdeploy,
+  SiGit,
+  SiGithub,
+  SiGitlab,
+  SiVscodium,
+  SiEclipseadoptium,
+  SiJupyter,
+  SiAdobe,
+  SiWire,
+  SiProtodotio,
+  SiSuperuser,
+  SiInteractjs,
+  SiRetroarch,
+  SiHomeassistantcommunitystore,
+  SiCommonworkflowlanguage,
+  SiTeamcity,
+  SiLeaderprice,
+  SiHiltonhotelsandresorts,
+  SiTimescale,
+  SiAuthentik,
 } from "react-icons/si";
-import { BiSolidBarChartAlt2 } from "react-icons/bi";
-import { RiAiGenerate2 } from "react-icons/ri";
-import { BsClipboard2DataFill } from "react-icons/bs";
-import { LuBrainCircuit } from "react-icons/lu";
+import { BiSolidBarChartAlt2, BiSolidCalendarHeart } from "react-icons/bi";
+import { RiAiGenerate2, RiShieldCrossLine } from "react-icons/ri";
+import { BsClipboard2DataFill, BsGearWideConnected, BsSignMergeLeft } from "react-icons/bs";
+import { LuBrainCircuit, LuDatabase, LuSignature } from "react-icons/lu";
 
 const Skills = () => {
   const ref = useRef(null);
@@ -74,49 +126,149 @@ const Skills = () => {
   // Skill data
   const skillCategories = [
     {
-      title: "Languages",
+      title: "Programming Languages",
       skills: [
-        { name: "C Programming", icon: <SiC />, level: 60 },
+        { name: "C", icon: <SiC />, level: 60 },
+        { name: "C++", icon: <SiCplusplus />, level: 20 },
         { name: "Python", icon: <FaPython />, level: 40 },
         { name: "Java", icon: <SiCplusplus />, level: 80 },
-        { name: "Flutter", icon: <SiFlutter />, level: 30 },
-        { name: "HTML5", icon: <FaHtml5 />, level: 95 },
-        { name: "CSS3", icon: <FaCss3Alt />, level: 90 },
         { name: "JavaScript", icon: <FaJs />, level: 65 },
+        { name: "TypeScript", icon: <SiTypescript />, level: 20 },
+        { name: "Dart", icon: <SiDart />, level: 20 },
       ],
     },
     {
-      title: "Frameworks",
+      title: "Web Development - ",
       skills: [
-        { name: "Mongo DB", icon: <SiMongodb />, level: 30 },
+        { name: "HTML5", icon: <FaHtml5 />, level: 95 },
+        { name: "CSS3", icon: <FaCss3Alt />, level: 90 },
+        { name: "JavaScript(ES6+)", icon: <FaJsfiddle />, level: 65 },
+        { name: "TypeScript", icon: <SiTypescript />, level: 20 },
         { name: "React", icon: <FaReact />, level: 20 },
+        { name: "Angular", icon: <FaAngular />, level: 20 },
+        { name: "Next.js", icon: <SiNextdotjs />, level: 20 },
         { name: "Tailwind CSS", icon: <SiTailwindcss />, level: 10 },
-        { name: "Power BI", icon: <BiSolidBarChartAlt2 />, level: 10 },
-        { name: "SQL", icon: <SiSqlite />, level: 80 },
-        { name: "Tableau", icon: <SiTableau />, level: 80 },
-        { name: "Figma", icon: <SiFigma />, level: 80 },
+        { name: "Bootstrap", icon: <SiBootstrap />, level: 10 },
       ],
     },
-     {
-      title: "Fields of Expertise",
+    {
+      title: "Web Development - Backend",
+      skills:[
+        { name: "Node.js", icon: <SiNodedotjs/>, level: 45 },
+        { name: "Express.js", icon: <SiExpress/>, level: 35 },
+        { name: "Django", icon: <SiDjango/>, level: 25 },
+        { name: "Flask", icon: <SiFlask/>, level: 35 },
+        { name: "Spring Boot", icon: <SiSpringboot/>, level: 25 },
+      ]
+    },
+    {
+      title: "Web Development - Backend",
+      skills:[
+        { name: "MySQL", icon: <SiMysql/>, level: 70 },
+        { name: "PostgreSQL", icon: <SiPostgresql/>, level: 25 },
+        { name: "SQLite", icon: <SiSqlite/>, level: 35 },
+        { name: "MongoDB", icon: <SiMongodb />, level: 65 },
+        { name: "Oracle DB", icon: <SiOracle />, level: 20 },
+      ]
+    },
+    {
+      title: "Data Science & Analytics",
       skills: [
-        { name: "Data Science", icon: <BsClipboard2DataFill />, level: 70 },
-        { name: "Deep Learning", icon: <LuBrainCircuit />, level: 55 },
-        { name: "Machine Learning", icon: <SiSourceforge />, level: 50 },
-        { name: "Internet of Things",icon: <SiArduino />,level: 70, },
-        { name: "Data Visualization", icon: <FaChartBar />, level: 65 },
-        { name: "UI/UX Designing", icon: <SiBookstack/>, level: 65 },
+        { name: "Data Analysis", icon: <BsClipboard2DataFill />, level: 80 },
+        { name: "Data Cleaning", icon: <LuDatabase />, level: 90 },
+        { name: "Data Visualization", icon: <SiDatabricks />, level: 80 },
+        { name: "Internet of Things",icon: <SiArduino />,level: 30, },
+        { name: "Pandas / NumPy", icon: <SiPandas />, level: 35 },
+        { name: "Power BI", icon: <BiSolidBarChartAlt2 />, level: 80 },
+        { name: "Tableau", icon: <SiTableau />, level: 80 },
+        { name: "Excel (Advanced)", icon: <SiExcalidraw />, level: 90 },
       ],
     },
+    {
+      title: "AI / Machine Learning",
+      skills: [
+        { name: "Machine Learning Algorithms", icon: <SiMlb />, level: 20 },
+        { name: "Deep Learning", icon: <SiDeepgram />, level: 25 },
+        { name: "Neural Networks (ANN, CNN, RNN)", icon: <SiNeutralinojs />, level: 45 },
+        { name: "NLP (Natural Language Processing)", icon: <LuSignature />, level: 35 },
+        { name: "TensorFlow", icon: <SiThesoundsresource />, level: 45 },
+      ]
+    },
+    {
+      title: "Mobile App Development",
+      skills: [
+        { name: "Flutter", icon: <SiFlutter />, level: 30 },
+        { name: "React Native", icon: <SiReactiveresume />, level: 20 },
+        { name: "API Integration", icon: <SiApifox />, level: 20 },
+        { name: "App UI Design", icon: <SiUikit />, level: 20 },
+      ]
+    },
+    {
+      title: "Cloud & DevOps",
+      skills: [
+        { name: "AWS (EC2, S3, Lambda)", icon: <SiAwslambda />, level: 40 },
+        { name: "Microsoft Azure", icon: <SiAmazonlumberyard />, level: 20 },
+        { name: "Google Cloud", icon: <SiGooglecloud />, level: 70 },
+        { name: "Docker", icon: <SiDocker />, level: 10 },
+        { name: "GitHub Actions", icon: <SiRefinedgithub />, level: 70 },
+        { name: "Deployment (Netlify, Vercel, Heroku)", icon: <SiOctopusdeploy />, level: 80 },
+      ]
+    },
+    {
+      title: "Developer Tools",
+      skills: [
+        { name: "Git", icon: <SiGit />, level: 70 },
+        { name: "GitHub", icon: <SiGithub />, level: 90 },
+        { name: "GitLab", icon: <SiGitlab />, level: 60 },
+        { name: "VS Code", icon: <SiVscodium />, level: 90 },
+        { name: "Eclipse", icon: <SiEclipseadoptium />, level: 60 },
+        { name: "Postman", icon: <SiPostman />, level: 20 },
+        { name: "Jupyter Notebook", icon: <SiJupyter />, level: 10 },
+      ]
+    },
+    {
+      title: "UI / UX Design",
+      skills: [
+        { name: "Figma", icon: <SiFigma />, level: 80 },
+        { name: "Adobe XD", icon: <SiAdobe />, level: 70 },
+        { name: "Wireframing", icon: <SiWire />, level: 90 },
+        { name: "Prototyping", icon: <SiProtodotio />, level: 50 },
+        { name: "User Research", icon: <SiSuperuser />, level: 30 },
+        { name: "Interaction Design", icon: <SiInteractjs />, level: 80 },
+        { name: "Design Systems", icon: <Si99Designs />, level: 50 },
+        
+      ]
+    },
+    {
+      title: "Soft Skills",
+      skills: [
+        { name: "Problem Solving", icon: <SiRetroarch />, level: 60 },
+        { name: "Communication", icon: <SiCommonworkflowlanguage />, level: 70 },
+        { name: "Teamwork", icon: <SiTeamcity />, level: 50 },
+        { name: "Leadership", icon: <SiHiltonhotelsandresorts />, level: 60 },
+        { name: "Time Management", icon: <SiTimescale />, level: 80 },
+        { name: "Critical Thinking", icon: <SiAuthentik />, level: 50 },
+        { name: "Adaptability", icon: <BsGearWideConnected />, level: 70 },
+      ]
+    },
   ];
-
+  
   const tools_and_tech = [
-    "GitHub",
-    "Arduino IDE",
+    "DBMS",
+    "Operating Systems",
     "Responisive Web Design",
-    "Netlify",
+    "Computer Networks",
+    "Network Security Basics",
+    "CI/CD Basics",
+    "Data Cleaning",
+    "Feature Engineering",
+    "Model Evaluation",
+    "Debugging",
+    "PHP",
+    "Web Animations",
+    "Authentication (JWT, OAuth)",
   ];
-
+  
   return (
     <section id="skills" className="py-20 bg-dark relative overflow-hidden">
       {/* Background design elements */}

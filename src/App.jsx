@@ -4,11 +4,12 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import Papers from "./components/Papers";
+import Certificates from "./components/Intern";
+import Experiences from "./components/Experience";
 import Projects from "./components/Projects";
+import Papers from "./components/Papers";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-import Experiences from "./components/Experience";
 import "./main.css";
 
 function App() {
@@ -66,6 +67,7 @@ function App() {
         <Hero />
         <About />
         <Skills />
+        <Certificates />
         <Experiences />
         <Projects />
         <Papers />

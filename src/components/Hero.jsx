@@ -200,7 +200,7 @@ const Hero = () => {
               <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center relative z-10">
                 <div className="absolute inset-2 bg-dark-darker rounded-full flex items-center justify-center">
                   <img
-                    src="/photos/avatar.png"
+                    src="photos/avatar.png"
                     alt="Developer"
                     className="w-60 h-60 md:w-72 md:h-72 rounded-full object-cover"
                   />
